@@ -58,7 +58,6 @@
   <flag value="-static-libgcc" if="no_shared_libs"/>
   <flag value="-static-libstdc++" if="no_shared_libs"/>
   <lib name="-lws2_32"/>
-  <lib name="-lWinmm"/>
   <lib name="-lcrypt32"/>
   <ext value=".dll"/>
   <outflag value="-o "/>
@@ -77,7 +76,6 @@
   <flag value="-static-libstdc++" if="no_shared_libs"/>
   <flag value="-L${MINGW_ROOT}/lib/libs"/>
   <lib name="-lws2_32"/>
-  <lib name="-lWinmm"/>
   <lib name="-lcrypt32"/>
   <ext value=".exe"/>
   <outflag value="-o "/>
